@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Formulario</h2>
+        <span>user</span>
+        <input type="text" name="Usuario" id="user" placeholder="Inserte usuario">
+        <span>password</span>
+        <input type="text" name="Contrasenia" id="passw" placeholder="Inserte contraseña">
+
+
+        <select id="rol" name="rol">
+            <option id="rol">admin</option>
+            <option id="rol">cliente</option>
+        </select>
+        <button onclick="register()">log in</button>
+        <br><br>
+    </div>
+
+    <div>
+        <div>
+            <table>
+                <tr>
+                    <th>usuario</th>
+                    <th>contrasenia</th>
+                    <th>cliente</th>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <script src="/pregunta3/script.js"></script>
+</body>
+
+</html>
