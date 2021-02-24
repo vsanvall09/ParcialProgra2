@@ -3,5 +3,5 @@ balbino aylagas
 esen feb 2021
 
 nombre completo:Valeria Maria Santos Vallecillo
-github url:
+github url: https://github.com/vsanvall09/ParcialProgra2.git
 progra2
